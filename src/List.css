@@ -1,0 +1,147 @@
+/* Container styling */
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+h1, h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Link styling */
+.create-link {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #28a745;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.create-link:hover {
+  background-color: #218838;
+}
+
+/* Music and Album list styling */
+.music-list, .album-list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.music-item, .album-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  /* width: calc(30% - 20px); */
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.music-item:hover, .album-item:hover {
+  transform: translateY(-5px);
+}
+
+.music-item img, .album-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.music-details, .album-details {
+  text-align: center;
+}
+
+.music-details h2, .album-details h2 {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+}
+
+.music-details p, .album-details p {
+  font-size: 0.9em;
+  margin: 5px 0;
+  color: #666;
+  font-family: 'Roboto', sans-serif;
+}
+
+.metadata {
+  margin-top: 10px;
+}
+
+.metadata span {
+  display: block;
+  font-size: 0.9em;
+  color: #007bff;
+}
+
+.metadata a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.metadata a:hover {
+  text-decoration: underline;
+}
+
+/* Button styling */
+.edit-link, .delete-link, .play-link {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.edit-link {
+  background-color: #007bff;
+}
+
+.edit-link:hover {
+  background-color: #0056b3;
+}
+
+.delete-link {
+  background-color: #dc3545;
+  cursor: pointer;
+  border: none;
+}
+
+.delete-link:hover {
+  background-color: #c82333;
+}
+
+.play-link {
+  background-color: #28a745;
+}
+
+.play-link:hover {
+  background-color: #218838;
+}

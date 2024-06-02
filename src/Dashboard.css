@@ -1,0 +1,14 @@
+.dashboard {
+    display: flex;
+  }
+  
+  .dashboard-content {
+    margin-left: 200px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .dashboard h1 {
+    margin-bottom: 20px;
+  }
+  
