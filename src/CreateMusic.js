@@ -41,7 +41,7 @@ const CreateMusic = () => {
     formData.append('coverImageUrl', musicData.coverImageUrl);
     console.log(formData);
     try {
-      const response = await axios.post('http://localhost:8080/api/v1/music', formData, {
+      const response = await axios.post('https://music-web-orcin.vercel.app/api/v1/music', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         }

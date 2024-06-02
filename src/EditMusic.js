@@ -65,7 +65,7 @@ const EditMusic = () => {
       formDataToSend.append('public_id', formData.public_id);
       formDataToSend.append('slug', formData.slug);
 
-      await axios.patch(`http://localhost:8080/api/v1/music/${id}`, formDataToSend, {
+      await axios.patch(`https://music-web-orcin.vercel.app/api/v1/music/${id}`, formDataToSend, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
